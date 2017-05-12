@@ -280,6 +280,9 @@
 			else if (extension === 'css' ) {
 				var mode = 'css';
 			}
+			else if (extension === 'scss' ) {
+			     	var mode = 'text/x-scss';
+			}
 			else if (extension === 'js' ) {
 				var mode = 'javascript';
 			}
